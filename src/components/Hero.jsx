@@ -1,7 +1,6 @@
-// components/Hero.js
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
-import sidebarImage from '../assets/sidebarimage.jpg'; // Adjust the path as needed
+import sidebarImage from '../assets/s2.jpg'; 
 
 const Hero = () => {
   return (
