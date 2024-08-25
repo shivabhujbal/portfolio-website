@@ -44,27 +44,29 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-white py-16" data-section="contact">
+    <section className="bg-gray-100 rounded-md py-10" data-section="contact">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-gray-600">Get in Touch</span>
           <h2 className="text-3xl font-bold text-gray-800">Contact</h2>
+          <p className="text-xl font-serif italic text-gray-700">"Thank you for making it this far. If you found value, please share your thoughts through the form below"</p>
         </div>
         <div className="flex flex-wrap">
           {/* Contact Details */}
-          <div className="w-full md:w-5/12 lg:w-5/12 mb-8 md:mb-0">
+          <div className="w-full md:w-5/12 lg:w-5/12 mb-8 md:mb-0 bg-white p-3 rounded-md">
             <div className="mb-6">
+              <h1 className='text-black font-bold mb-3'>My Details</h1>
               <div className="flex items-center mb-4">
                 <i className="icon-user text-2xl text-gray-600 mr-4"></i>
-                <p className="text-black">Name: Shivsambh Muktaram Bhujbal</p>
+                <p className="text-black"><span className='font-bold'>Name: </span>Shivsambh Muktaram Bhujbal</p>
               </div>
             </div>
             <div className="mb-6">
               <div className="flex items-center mb-4">
                 <i className="icon-globe-outline text-2xl text-gray-600 mr-4"></i>
-                <p>
+                <p className='text-black font-bold'> Email :
                   <a href="mailto:shivsambhbhujbal.skncoe.mech@gmail.com" className="text-black">
-                    shivsambhbhujbal.skncoe.mech@gmail.com
+                     shivsambhbhujbal.skncoe.mech@gmail.com
                   </a>
                 </p>
               </div>
@@ -72,7 +74,7 @@ const Contact = () => {
             <div className="mb-6">
               <div className="flex items-center mb-4">
                 <i className="icon-phone text-2xl text-gray-600 mr-4"></i>
-                <p>
+                <p className='text-black font-bold'>Contact : &nbsp;
                   <a href="tel:+919960416848" className="text-black">
                     +91 9960416848
                   </a>
@@ -82,13 +84,13 @@ const Contact = () => {
             <div className="mb-6">
               <div className="flex items-center mb-4">
                 <i className="icon-map text-2xl text-gray-600 mr-4"></i>
-                <p className="text-black">Current Address: Nhare, Pune 411041</p>
+                <p className="text-black"><span className='font-bold'>Current Address: </span>Nhare, Pune 411041</p>
               </div>
             </div>
             <div className="mb-6">
               <div className="flex items-center mb-4">
                 <i className="icon-map text-2xl text-gray-600 mr-4"></i>
-                <p className="text-black">Permanent Address: Harangul Kh., Latur, 413531</p>
+                <p className="text-black"><span className='font-bold'>Permanent Address: </span> Harangul Kh., Latur, 413531</p>
               </div>
             </div>
           </div>
@@ -103,7 +105,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full border border-gray-300 p-3 rounded-lg text-black focus:border-blue-500 focus:outline-none bg-white" 
-                  placeholder="Name" 
+                  placeholder="Enter your name" 
                   aria-label="Name" 
                   required
                 />

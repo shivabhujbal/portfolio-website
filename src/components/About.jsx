@@ -5,10 +5,10 @@ import { LiaDocker } from 'react-icons/lia'; // Adjust the import as needed
 
 const About = () => {
   return (
-    <section id="about" className="py-16">
+    <section id="about" className="py-10 bg-white rounded-md">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="text-gray-600">About Us</span>
+          <span className="text-gray-600">About Me</span>
           <h2 className="text-xl font-bold text-gray-800 mt-4">Who Am I?</h2>
           <p className='text-black leading-loose '>🌟 <strong>Hello! I'm a Fullstack Developer </strong> with a strong passion for crafting innovative and efficient applications. My expertise spans Java, SpringBoot, Javascript, React.js, MySQL, Spring Data JPA, HTML, CSS, and Bootstrap.</p>
           <p className='text-black leading-loose '>🚀 <strong>I specialize in building scalable backend solutions with SpringBoot, while also creating dynamic and responsive frontends using React.js and Javascript.</strong> My goal is to develop seamless user experiences and robust applications that meet and exceed project objectives.</p>

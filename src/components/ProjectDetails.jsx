@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate, useParams } from 'react-router-dom';
-
+import './Sidebar.css';
 import P1I1 from '../assets/P1I1.jpeg';
 import P1I2 from '../assets/P1I2.jpeg';
 import P1I3 from '../assets/P1I3.jpeg';
@@ -16,6 +16,7 @@ import P2I4 from '../assets/P2I4.png';
 import P2I5 from '../assets/P2I5.png';
 import P2I6 from '../assets/P2I6.png';
 import P2I7 from '../assets/P2I7.png';
+import { FaHome } from 'react-icons/fa';
 
 const CustomPrevArrow = ({ onClick }) => (
     <button className="slick-prev" onClick={onClick}>
@@ -97,9 +98,9 @@ const ProjectDetails = () => {
         <div className="relative">
     <button 
         onClick={() => navigate('/')} 
-        className="fixed top-4 left-4 px-2 py-1 bg-indigo-500 text-white "
+        className="fixed top-4 left-4 px-3 py-3 bg-black text-white "
     >
-            Home
+            <FaHome></FaHome>
 
     </button>
     <div className="container mx-auto p-8 bg-gray-50 rounded-xl shadow-lg">

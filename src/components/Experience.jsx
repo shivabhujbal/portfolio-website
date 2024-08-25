@@ -43,7 +43,7 @@ const ExperienceSection = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-100" data-section="experience" ref={experienceRef}>
+    <section className="py-10 bg-gray-100" data-section="experience" ref={experienceRef}>
       <div className="container mx-auto px-4">
         <div className={`text-center mb-12 ${inView ? 'animate-fadeIn' : ''}`}>
           <span className="text-sm font-semibold text-gray-500">Experience</span>

@@ -13,7 +13,7 @@ const Main2 = () => {
   return (
     <div className="flex mt-0">
       {/* Sidebar */}
-      <div className='w-64 h-screen sticky top-0 bg-gray-200 text-white'>
+      <div className='hidden md:block md:w-64 h-screen sticky top-0 bg-gray-200 text-white'>
         <Sidebar />
       </div>
       {/* Main Content */}

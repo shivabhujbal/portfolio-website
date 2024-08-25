@@ -8,7 +8,7 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills" className="py-16" ref={skillsRef}>
+    <section id="skills" className="py-10 bg-gray-100 rounded-md " ref={skillsRef}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-gray-600">My Specialty</span>
@@ -17,7 +17,7 @@ const Skills = () => {
         <p className="text-center text-gray-600 mb-8">
           "Throughout my journey, I've developed a strong skill set through practice, academic work, projects, internships, and self-learning. These experiences have built my foundation in full-stack development, enabling me to solve complex challenges and deliver quality solutions."
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
           {skills.map((skill, index) => (
             <div key={index} className={`animate-fadeIn ${inView ? 'animate-fillUp' : ''}`}>
               <h3 className="text-xl text-black font-semibold mb-2">{skill.name}</h3>
@@ -45,6 +45,9 @@ const skills = [
   { name: 'Javascript', percentage: '85%', color: 'bg-yellow-500' },
   { name: 'React', percentage: '85%', color: 'bg-purple-500' },
   { name: 'MySql', percentage: '90%', color: 'bg-orange-500' },
+  { name: 'Docker', percentage: '90%', color: 'bg-orange-500' },
+  { name: 'Kubernetes', percentage: '70%', color: 'bg-orange-500' },
+  { name: 'Git & Github', percentage: '80%', color: 'bg-orange-500' },
 ];
 
 export default Skills;

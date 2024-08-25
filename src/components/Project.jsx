@@ -51,11 +51,11 @@ const Project = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true,
+    // arrows: true,
   };
 
   return (
-    <section className="py-16" id="work" data-section="work">
+    <section className="py-10 bg-white rounded-md" id="work" data-section="work">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-gray-500">My Work</span>

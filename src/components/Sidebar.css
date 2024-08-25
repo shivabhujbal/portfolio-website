@@ -1,0 +1,156 @@
+/* styles.css */
+
+/* Ensure the container takes full width on small screens */
+.container {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* Adjust the header text sizes */
+@media (max-width: 768px) {
+    .text-4xl {
+        font-size: 2rem;
+    }
+
+    .text-lg {
+        font-size: 1rem;
+    }
+}
+
+/* Adjust the buttons and icons */
+.fixed {
+    top: 1rem;
+    left: 1rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+/* Adjust the technology and tag elements */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap .bg-indigo-500 {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+}
+
+.flex-wrap .bg-gray-200 {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Ensure the slider fits within the container */
+.slick-slide {
+    padding: 0 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Adjust margins and padding */
+.mb-10 {
+    margin-bottom: 2rem;
+}
+
+.p-8 {
+    padding: 1rem;
+}
+
+.m-5 {
+    margin: 1rem;
+}
+
+
+/* styles.css */
+
+/* Adjustments for screens 412px wide and above */
+/* styles.css */
+
+/* Adjustments for screens 412px wide and above */
+@media (max-width: 412px) {
+    /* Container adjustments */
+    .container {
+        padding: 0 0.5rem; /* Reduced padding for better fit */
+    }
+
+    /* Header text sizes */
+    .text-4xl {
+        font-size: 1.75rem; /* Slightly smaller font size */
+    }
+
+    .text-lg {
+        font-size: 0.875rem; /* Adjusted for smaller screens */
+    }
+
+    /* Button adjustments */
+    .fixed {
+        top: 0.5rem;
+        left: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .text-2xl {
+        font-size: 1.25rem;
+    }
+
+    /* Flexbox adjustments for technologies and tags */
+    .flex-wrap {
+        gap: 0.5rem; /* Reduced gap */
+    }
+
+    .bg-indigo-500, .bg-gray-200 {
+        font-size: 0.65rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Slider adjustments */
+    .slick-slide {
+        padding: 0; /* Remove padding for full-width slides */
+    }
+
+    .slick-slide img {
+        max-width: 100%;
+        height: auto; /* Ensure images fit well */
+        object-fit: cover;
+        border-radius: 0.5rem; /* Rounded corners */
+    }
+
+    /* Margin and padding adjustments */
+    .mb-10 {
+        margin-bottom: 1rem; /* Reduced margin */
+    }
+
+    .p-8 {
+        padding: 0.5rem; /* Reduced padding */
+    }
+
+    .m-5 {
+        margin: 0.5rem; /* Adjusted margin */
+    }
+
+    /* Ensure sections stack properly */
+    .section {
+        margin-bottom: 1rem; /* Reduced margin between sections */
+    }
+
+    /* Adjust h1 and h2 sizes for better readability */
+    .text-3xl {
+        font-size: 1.5rem; /* Adjusted for mobile */
+    }
+
+    .text-2xl {
+        font-size: 1.25rem; /* Adjusted for mobile */
+    }
+
+    .text-sm {
+        font-size: 0.75rem; /* Adjusted for mobile */
+    }
+}
+
+
