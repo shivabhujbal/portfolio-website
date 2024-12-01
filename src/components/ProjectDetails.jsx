@@ -16,6 +16,10 @@ import P2I4 from '../assets/P2I4.png';
 import P2I5 from '../assets/P2I5.png';
 import P2I6 from '../assets/P2I6.png';
 import P2I7 from '../assets/P2I7.png';
+import P3I1 from '../assets/P3I1.png';
+import P3I2 from '../assets/P3I2.png';
+import P3I3 from '../assets/P3I3.png';
+import P3I4 from '../assets/P3I4.png';
 import { FaHome } from 'react-icons/fa';
 
 const CustomPrevArrow = ({ onClick }) => (
@@ -64,6 +68,26 @@ const projectsData = {
             P2I5,P2I6,P2I7,P2I1,P2I2,P2I3,P2I4,
         ],
     },
+    '3': {
+    title: 'Email ID Verification using EmailJS and React',
+    date: 'AUGUST 2024',
+    technologies: ['React', 'EmailJS', 'Bootstrap', 'JavaScript', 'HTML5', 'CSS3'],
+    tags: ["Frontend Development", "Email Verification", "Form Validation", "API Integration", "User Notifications", "Error Handling", "Dynamic Components"],
+    features: [
+        "Integrated EmailJS with React to send email verification links without a backend server.",
+        "Designed and implemented a user-friendly email verification form with real-time validation.",
+        "Used environment variables to securely store EmailJS credentials for improved security.",
+        "Developed error handling mechanisms to manage API call failures effectively.",
+        "Built a responsive interface using Bootstrap, ensuring seamless usability across devices.",
+        "Sent dynamic email templates containing verification links to ensure secure email verification.",
+        "Implemented visual feedback for users, such as success or failure notifications, to enhance user experience."
+    ],
+    sourceCodeLink: 'https://github.com/shivabhujbal/email-otp-verification-react',
+    images: [
+        P3I1,P3I2,P3I3,P3I4
+    ],
+},
+
 };
 
 const ProjectDetails = () => {

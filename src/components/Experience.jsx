@@ -6,7 +6,7 @@ import './style.css';
 const experiences = [
   {
     title: 'Software Developer Trainee',
-    date: 'JUL 2024 - Present',
+    date: 'JUL 2024 - NOV 2024',
     company: 'Numetry Technologies',
     location: 'WFH',
     responsibilities: [

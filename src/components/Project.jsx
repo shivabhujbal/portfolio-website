@@ -10,6 +10,12 @@ import P2I1 from '../assets/P2I1.png';
 import P2I4 from '../assets/P2I4.png';
 import P2I5 from '../assets/P2I5.png';
 import P2I6 from '../assets/P2I6.png';
+import P3I1 from '../assets/P3I1.png';
+import P3I2 from '../assets/P3I2.png';
+import P3I3 from '../assets/P3I3.png';
+import P3I4 from '../assets/P3I4.png';
+
+
 
 const Project = () => {
   const projects = [
@@ -31,7 +37,7 @@ const Project = () => {
       id: 3,
       title: "Email ID Verification",
       category: "Authentication",
-      images: [P1I1, P1I2, P1I3],
+      images: [P3I1, P3I2, P3I3,P3I4],
       time: "July 2023",
     },
     
